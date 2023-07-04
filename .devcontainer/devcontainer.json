@@ -1,0 +1,21 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vsciot-vscode.vscode-arduino"
+            ],
+            "settings": {
+                "github.codespaces.createCodespaceInNewWindow": false,
+                "git.enableSmartCommit": true,
+                "git.autofetch": true,
+                "git.confirmSync": false,
+                "editor.minimap.enabled": true,
+                "files.associations": {}
+            }
+        }
+    }
+}
